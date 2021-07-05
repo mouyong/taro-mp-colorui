@@ -13,8 +13,8 @@ yarn postinstall mp-colorui@^1.0.0-beta.1
 {
   ...
   "scripts": {
-    +"patch": "sh -c './node_modules/.bin/patch-package mp-colorui --create-issue'",
-    +"postinstall": "sh -c './node_modules/.bin/patch-package'",
++    "patch": "sh -c './node_modules/.bin/patch-package mp-colorui --create-issue'",
++    "postinstall": "sh -c './node_modules/.bin/patch-package'",
     ...
   },
 }
