@@ -20,6 +20,11 @@ yarn postinstall
 }
 ```
 
+## 安装 taro-utils
+
+前往查看：https://github.com/mouyong/taro-utils
+
+
 ## 开发
 
 ```shell
