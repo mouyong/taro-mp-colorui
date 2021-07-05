@@ -9,7 +9,7 @@ yarn postinstall mp-colorui@^1.0.0-beta.1
 
 ## 添加 package.json scripts 执行命令
 
-```diff package.json
+```diff
 {
   ...
   "scripts": {
