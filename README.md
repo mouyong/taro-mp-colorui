@@ -4,7 +4,7 @@
 git subtree add -P patches/ https://github.com/mouyong/taro-mp-colorui.git master
 
 yarn add --dev patch-package postinstall-postinstall
-yarn postinstall
+yarn postinstall mp-colorui@^1.0.0-beta.1
 ```
 
 ## 添加 package.json scripts 执行命令
