@@ -13,12 +13,19 @@ yarn postinstall mp-colorui@^1.0.0-beta.1
 {
   ...
   "scripts": {
-+    "patch": "sh -c './node_modules/.bin/patch-package mp-colorui --create-issue'",
++    "patch": "sh -c './node_modules/.bin/patch-package mp-colorui'",
 +    "postinstall": "sh -c './node_modules/.bin/patch-package'",
     ...
   },
 }
 ```
+
+## 需要修复 node_modules/mp-colorui 的代码时
+
+1. 修复 `node_modules/mp-colorui/dist/index.esm.js` 文件中的相关错误
+2. 修复 `node_modules/mp-colorui/lib/src/` 目录下的相关错误
+3. 生成补丁 `yarn patch`
+4. 更新 issue：https://github.com/yinLiangDream/mp-colorui/issues/113 对应的补丁内容。补丁内容为 `mp-colorui+1.0.0-beta.1.patch` 的全部内容
 
 ## 安装 taro-utils
 
